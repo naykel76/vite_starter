@@ -1,4 +1,4 @@
-// @use "node_modules/nk_jtb/src/base/vars_base" as * with (
+// @use "node_modules/nk_jtb/src/variables/base" as * with (
 //     $text: rgb(228, 232, 236),
 //     $background: #0b101d,
 //     $primary: #2876dc,
@@ -7,7 +7,3 @@
 // );
 
 @use "node_modules/nk_jtb/src/jtb";
-
-.x{
-    background: #000;
-}

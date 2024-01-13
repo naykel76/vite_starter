@@ -1,4 +1,4 @@
-import './src/scss/jtb.scss'
+import './src/scss/app.scss'
 import logo from '/logo.svg'
 import { counter } from './src/js/counter.js'
 
