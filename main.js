@@ -1,6 +1,6 @@
-import './jtb.scss'
+import './src/scss/jtb.scss'
 import logo from '/logo.svg'
-import { setupCounter } from './counter.js'
+import { counter } from './src/js/counter.js'
 
 document.querySelector('#app').innerHTML = `
 <div class="flex items-center justify-center h-screen">
@@ -12,4 +12,4 @@ document.querySelector('#app').innerHTML = `
 </div>
 `
 
-setupCounter(document.querySelector('#counter'))
+counter(document.querySelector('#counter'))
